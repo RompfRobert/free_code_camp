@@ -8,4 +8,4 @@ function sum(arr, n) {
     }
   }
 
-  console.log(sum(myArr, 1))
+  console.log(sum(myArr, 1));
