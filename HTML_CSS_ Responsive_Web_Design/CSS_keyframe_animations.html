@@ -7,10 +7,11 @@
       border-radius: 5px;
     }
   
-    #rect:hover {
+    #rect {
       animation-name: "rainbow";
       animation-duration: 4s;
       animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
     }
   
     @keyframes rainbow {
@@ -24,14 +25,16 @@
             background-color: green;
             top: 50px;
             left: 25px;
+            opacity: 0.1;
         }
 
         100% {
             background-color: yellow;
             top: 0px;
             left: -25px;
+            opacity: 1;
         }
-        
+
     }
   
   </style>
